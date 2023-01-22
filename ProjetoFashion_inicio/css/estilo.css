@@ -1,0 +1,150 @@
+body{
+    font-family: tahoma, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    width: 1024px; /*largura*/
+    margin: 20px auto; /* margem auto para centralizar*/
+
+}
+
+.main-header{ /*estilizando o header onde tem o logo e as listas*/
+    height: 50px; /*altura*/
+    background-color: #162028; /*cor de fundo*/
+    position: relative;
+}
+
+.main-image-logotipo{ /*estilização do logotipo no cabeçalho*/
+    margin: 10px 0 0 150px; /*margem para o top e para a esquerda*/
+}
+
+.main-navegation{ /* estilização do menu de navegação com as listas*/
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 100%;
+}
+
+.main-header ul{ /*zerando as margens e preenchimentos da UL*/
+    margin: 0;
+    padding: 0;
+}
+.main-header li{/* estilização das li dentro do main header*/
+    list-style: none; /* tirando qualquer decoração da lista*/
+    display: inline-block; /* exibindo em linha o bloco*/
+    margin: 0 15px 0 0; /*margem aplicada somente na direita*/
+    color: white;
+    padding: 10px;
+}
+
+.main-navegation a{ /*estilização de todos as ancoras<a> dentro da nav principal*/
+    text-transform: uppercase; 
+    text-decoration: none;
+    letter-spacing: 3px; 
+    font-size: 12px;
+    color: rgb(117, 115, 115);
+}
+
+.main-navegation a:hover{
+    color: white;
+    transition: color 0.3s linear;
+
+
+}
+.main-content{ 
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.main-content h1{
+    font-size: 36px;
+    color: #252525;
+}
+
+.main-content p{
+    font-size: 16px;/*tamanho da fonte*/
+    line-height: 32px; /* espaça altura entre os textos*/
+    color: #555;
+}
+
+
+.main-section-of-images{
+    color: #555;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+
+.gallery-card{
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+.main-section-title{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.main-section-text{
+    color: orangered;
+    font-weight: bold;
+}
+
+.about{
+    background-color: #003d52;
+    padding: 100px;
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.about h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+    padding-bottom: 20px;
+} 
+
+.about p{
+    line-height: 1.5;
+    width: 70%;
+}
+
+#contact{
+    margin: 50px 0;
+    text-align: center;
+    padding: 10px;
+}
+
+#contact address{
+    color: #003d52;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.maps{
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+}
+
+.maps iframe{
+    width: 100%;
+}
+
+.rodape{
+    background-color: #0b171f;
+    padding: 25px;
+    font-size: 12px;
+    color: #6f8597;
+    letter-spacing: 5px;
+    text-align: center;
+}
